@@ -1,0 +1,151 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+a{
+	text-decoration: none;
+	color:#151515;
+}
+
+a:hover{
+	color:#EA646F;
+}
+
+    /* CLASSES */
+
+.timecode-box{
+    background-color: #fff;
+    padding: 20px;
+    display: block;
+    
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: outset;
+
+    position: relative;
+}
+
+.timecode-box h3{
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: .2em;
+
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-bottom: solid 2px #EA646F;
+    border-top: solid 2px #EA646F;
+    border-left: solid 20px #EA646F;
+    border-right: solid 20px #EA646F;
+
+    border-radius: 10px;
+
+    padding: 10px;
+/*
+    border-style: unset;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px inset;
+
+    border-top: #ccc 5px solid;
+    border-right: #ccc 5px solid;
+    border-bottom: #777 5px solid;
+    border-left: #777 5px solid;
+
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+*/
+}
+.timecode-box ol{
+    list-style-type: upper-roman;
+    padding: 10px 20px 10px 20px;
+}
+.timecode-box ul{
+    list-style-type: none;
+}
+.timecode-box li{
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    padding-left: 10px;
+}
+.timecode-box li strong{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #EA646F;
+    padding: .2em .5em .2em .5em;
+    /* border-radius: 5px; */
+    margin-right: .5em;
+
+    border-radius: initial;
+
+    transition: border-radius .5s;
+}
+
+.timecode-box li strong:hover{
+    background-color: #f0838c;
+    border-radius: 5px;
+}
+
+/* /.timecode-box */
+
+.nta-navbar{
+    margin-bottom: 100px;
+}
+
+.nta-navbar ul {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* border-radius: 0px 0px 10px 10px; */
+  }
+  
+  .nta-navbar li {
+    float: left;
+    width: 100px;
+    color: initial;
+    transition:1s;
+  }
+  
+  .nta-navbar li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .nta-navbar li a:hover{
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .nta-navbar li:hover{
+    background-color: #EA646F;
+  }
+
+/* /.nta-navbar */
+
+.clr{
+	clear:both;
+}
+
+/* /.clr */
+
+body{
+    font-family: "Open Sans";
+    color: #151515;
+}
