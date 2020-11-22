@@ -7,15 +7,11 @@
 
 a{
 	text-decoration: none !important;
-	/* color:#151515; */
-	color:#EA646F;
+	color:#151515;
 }
 
 a:hover{
 	color:#EA646F;
-}
-a:active{
-	color:#151515;
 }
 
     /* CLASSES */
@@ -100,27 +96,34 @@ a:active{
 /* /.timecode-box */
 
 .nta-navbar{
-    	margin-bottom: 100px;
-	position: relative;
-	border-radius: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nta-navbar ul {
     z-index: 10;
-    	position: absolute;
+    /* position: absolute; */
     top: 0;
-    width: 100%;
+    width: 50%;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: auto;
+    margin-left: auto;
     overflow: hidden;
     background-color: #333;
+    border-radius: 20px;
     /* border-radius: 0px 0px 10px 10px; */
   }
   
   .nta-navbar li {
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     color: initial;
+    /* transition:1s; */
   }
   
   .nta-navbar li a {
