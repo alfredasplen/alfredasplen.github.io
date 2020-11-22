@@ -13,6 +13,9 @@ a{
 a:hover{
 	color:#EA646F;
 }
+a:active{
+	color:#151515;
+}
 
     /* CLASSES */
 
