@@ -121,7 +121,6 @@ a:active{
   .nta-navbar li {
     float: left;
     color: initial;
-    transition:1s;
   }
   
   .nta-navbar li a {
